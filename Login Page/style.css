@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('./Imagens/pexels-eberhardgross-691668.jpg');
+    background-size: cover;
+}
+
+.Login {
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size:32px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Username input {
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: white;
+    color: #A9A9A9;
+}
+
+.Password input {
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: white;
+    color: #A9A9A9;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    margin-top: 5px;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: whitesmoke;
+    color: gray;
+    margin-top: 5px;
+}
+
+input::placeholder {
+    color: #A9A9A9;
+}
+
+#Caixa {
+    margin-top: 100px
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.Menu {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
